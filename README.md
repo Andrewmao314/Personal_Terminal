@@ -1,11 +1,4 @@
-```
- ____  _          _ _   ____
-/ ___|| |__   ___| | | |___ \
-\___ \| '_ \ / _ \ | |   __) |
- ___) | | | |  __/ | |  / __/
-|____/|_| |_|\___|_|_| |_____|
-```
-Main Structure of my Shell (2!!!):
+Main Structure of my Self-Implemented Terminal:
 - The main function does the primary function of running the REPL, reading from the user, and then calling the appropriate function/s
 - Parse function processes the input buffer:
     - Identifies and stores I/O redirections in the result struct
